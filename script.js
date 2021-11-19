@@ -20,6 +20,8 @@ const matchErrorBox = document.querySelector('.matchError');
 const startMatchButton = document.getElementById('startMatch');
 
 startMatchButton.addEventListener('click', function(event) {
+    event.preventDefault();
+
     startMatch();
 });
 
